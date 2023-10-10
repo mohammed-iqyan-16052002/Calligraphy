@@ -1,0 +1,1417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+
+.container .nav {
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(206, 203, 203);
+}
+
+.container nav {
+    width: 70%;
+}
+
+.container nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.container img {
+    width: "83";
+    height: "33";
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 0px;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.container .h {
+    color: white;
+    background: #000;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 3px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-top: -1%;
+}
+
+.h:hover {
+    background: transparent;
+    color: black;
+    border: 2px solid gray;
+    transition: 1s;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    top: 5%;
+}
+
+.container .img {
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.container .content1 p {
+    font-size: 18px;
+}
+
+.container .content1 {
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .content2 {
+    width: 40%;
+    height: 60vh;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/6189711db0a8fd1426d896a4/1636422232127-V7DVVATLFUPITL1Y92O9/Vancouver+calligrapher+Dina%27s+happy+birthday+greeting+card.png');
+    background-size: cover;
+}
+
+.four {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    border-top: 3px solid gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.four .content {
+    width: 100%;
+    height: 70vh;
+    /* background: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-bottom: 10%; */
+}
+
+.four .content .foot {
+    width: 30%;
+    height: 30vh;
+    /* background: blanchedalmond; */
+}
+
+.four .content #foot1 {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 16px;
+}
+
+.four .content #foot1 img {
+    width: 60%;
+    position: relative;
+    top: 25%;
+}
+
+.four .content #foot2 {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 16px;
+}
+
+.four .content #foot3 {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 16px;
+}
+
+.four .content #foot4 {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 16px;
+}
+
+.four a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.four .content ul li {
+    margin-top: 5%;
+    list-style: none;
+
+}
+
+.four .content .foot h1 {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+.four .copy {
+    border-top: 2px solid gray;
+    color: white;
+    width: 100%;
+    height: 44px;
+    position: relative;
+    top: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.four .copy p {
+    font-size: 17px;
+}
+
+.four .icon {
+    width: 100%;
+    position: relative;
+    top: 8%;
+}
+
+.four .icon i {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 3%;
+    margin-right: 2%;
+}
+
+@media(max-width:950px) {
+    .container .content1 p {
+        font-size: 17px;
+    }
+}
+
+@media(max-width:850px) {
+    .container img {
+        width: 74px;
+        height: 30px;
+        margin-left: 2%;
+        margin-top: 1%;
+        font-size: 0px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 18px;
+    }
+
+    .container .h {
+        color: white;
+        background: #000;
+        padding: 5px 15px;
+        text-align: center;
+        border-radius: 3px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-top: -1%;
+        font-size: 14px;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        top: 4%;
+        color: white;
+        font-size: 29px;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        top: 4%;
+        color: black;
+        font-size: 29px;
+    }
+
+    .container .content1 p {
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width:800px) {
+    .container img {
+        width: 74px;
+        height: 30px;
+        margin-left: 2%;
+        margin-top: 1%;
+        font-size: 0px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 18px;
+    }
+
+    .container .h {
+        color: white;
+        background: #000;
+        padding: 5px 15px;
+        text-align: center;
+        border-radius: 3px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-top: -1%;
+        font-size: 14px;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        top: 4%;
+        color: white;
+        font-size: 29px;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        top: 4%;
+        color: black;
+        font-size: 28px;
+    }
+
+    .container .content1 {
+        width: 39%;
+        height: 59vh;
+
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .content2 {
+        width: 39%;
+        height: 59vh;
+
+    }
+
+    .four .content .foot h1 {
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 30px;
+    }
+
+    .four .content #foot1 img {
+        width: 60%;
+        position: relative;
+        top: 34%;
+    }
+
+    .four a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .four .icon i {
+        color: white;
+        font-size: 19px;
+        position: relative;
+        left: 3%;
+        margin-right: 2%;
+    }
+
+    .four .copy p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:750px) {
+    .container img {
+        width: 74px;
+        height: 30px;
+        margin-left: 2%;
+        margin-top: 1%;
+        font-size: 0px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 18px;
+    }
+
+    .container .h {
+        color: white;
+        background: #000;
+        padding: 5px 15px;
+        text-align: center;
+        border-radius: 3px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-top: -1%;
+        font-size: 14px;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        top: 4%;
+        color: black;
+        font-size: 28px;
+    }
+
+    .container .content1 {
+        width: 39%;
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .content1 p {
+        font-size: 15px;
+    }
+
+    .container .content2 {
+        width: 39%;
+        height: 55vh;
+    }
+
+    .four .content #foot1 img {
+        width: 64%;
+        position: relative;
+        top: 34%;
+    }
+
+    .four .content .foot h1 {
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 28px;
+    }
+
+    .four a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:700px) {
+    .container img {
+        width: 72px;
+        height: 29px;
+        margin-left: 2%;
+        margin-top: 1%;
+        font-size: 0px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 17px;
+    }
+
+    .container .h {
+        color: white;
+        background: #000;
+        padding: 5px 15px;
+        text-align: center;
+        border-radius: 3px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-top: -1%;
+        font-size: 13px;
+    }
+
+    .container .img {
+        width: 100%;
+        height: 75vh;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        top: 4%;
+        color: black;
+        font-size: 27px;
+    }
+
+    .container .content1 {
+        width: 39%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .content1 p {
+        font-size: 14px;
+    }
+
+    .container .content2 {
+        width: 39%;
+        height: 50vh;
+    }
+
+    .four .content #foot1 img {
+        width: 64%;
+        position: relative;
+        top: 34%;
+    }
+
+    .four .content .foot h1 {
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 27px;
+    }
+
+    .four a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .four .icon i {
+        color: white;
+        font-size: 18px;
+        position: relative;
+        left: 3%;
+        margin-right: 2%;
+    }
+
+    .four .copy p {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:650px) {
+    .container img {
+        width: 72px;
+        height: 29px;
+        margin-left: 2%;
+        margin-top: 1%;
+        font-size: 0px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 17px;
+    }
+
+    .container .h {
+        color: white;
+        background: #000;
+        padding: 5px 15px;
+        text-align: center;
+        border-radius: 3px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-top: -1%;
+        font-size: 13px;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        top: 4%;
+        color: black;
+        font-size: 26px;
+    }
+
+    .container .content1 p {
+        font-size: 13px;
+    }
+
+    .container .img {
+        width: 100%;
+        height: 70vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .four .content .foot h1 {
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 25px;
+    }
+
+    .four a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .four .icon i {
+        color: white;
+        font-size: 18px;
+        position: relative;
+        left: 3%;
+        margin-right: 2%;
+    }
+
+    .four .copy p {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:600px) {
+    .container img {
+        width: 70px;
+        height: 28px;
+        margin-left: 2%;
+        margin-top: 1%;
+        font-size: 0px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 16px;
+    }
+
+    .container .h {
+        color: white;
+        background: #000;
+        padding: 5px 15px;
+        text-align: center;
+        border-radius: 3px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-top: -1%;
+        font-size: 12px;
+    }
+
+    .container .img {
+        width: 100%;
+        height: 65vh;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        top: 4%;
+        color: black;
+        font-size: 26px;
+    }
+
+    .container .content1 {
+        width: 39%;
+        height: 45vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .content2 {
+        width: 39%;
+        height: 45vh;
+    }
+
+    .four .content {
+        width: 100%;
+        height: 65vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .four .content .foot {
+        width: 30%;
+        height: 34vh;
+
+    }
+
+    .four .content #foot1 img {
+        width: 70%;
+        position: relative;
+        top: 38%;
+    }
+
+    .four .content .foot h1 {
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 23px;
+    }
+
+    .four .icon {
+        width: 100%;
+        position: relative;
+        top: 12%;
+    }
+
+    .four .copy {
+        border-top: 2px solid gray;
+        color: white;
+        width: 100%;
+        height: 44px;
+        position: relative;
+        top: 22%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width:550px) {
+    .container {
+        width: 100%;
+        height: 95vh;
+        background: white;
+    }
+
+    .container img {
+        width: 67px;
+        height: 25px;
+        margin-left: 2%;
+        margin-top: 1%;
+        font-size: 0px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 15px;
+    }
+
+    .container .h {
+        color: white;
+        background: #000;
+        padding: 5px 15px;
+        text-align: center;
+        border-radius: 3px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-top: -1%;
+        font-size: 11px;
+    }
+
+    .container .nav {
+        width: 100%;
+        height: 11vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(206, 203, 203);
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        top: 3%;
+        color: black;
+        font-size: 25px;
+    }
+
+    .container .img {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .container .content1 {
+        width: 39%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .content1 p {
+        font-size: 11px;
+    }
+
+    .container .content2 {
+        width: 39%;
+        height: 40vh;
+    }
+
+    .four {
+        width: 100%;
+        height: 96vh;
+        background: #000;
+        border-top: 3px solid gray;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .four .content #foot1 img {
+        width: 80%;
+        position: relative;
+        top: 38%;
+    }
+
+    .four .content .foot h1 {
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 20px;
+    }
+
+    .four .icon i {
+        color: white;
+        font-size: 17px;
+        position: relative;
+        left: 3%;
+        margin-right: 2%;
+    }
+
+    .four .copy p {
+        font-size: 14px;
+    }
+
+    .four .copy {
+        border-top: 2px solid gray;
+        color: white;
+        width: 100%;
+        height: 44px;
+        position: relative;
+        top: 19%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media(max-width:500px) {
+    .container {
+        width: 100%;
+        height: 90vh;
+        background: white;
+    }
+
+    .container .h {
+        color: white;
+        background: #000;
+        padding: 5px 15px;
+        text-align: center;
+        border-radius: 3px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-top: -1%;
+        font-size: 10px;
+    }
+
+    .container img {
+        width: 66px;
+        height: 24px;
+        margin-left: 2%;
+        margin-top: 1%;
+        font-size: 0px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 14px;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        top: 4%;
+        color: black;
+        font-size: 24px;
+    }
+
+    .container .img {
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .container .content1 {
+        width: 39%;
+        height: 35vh;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .content1 p {
+        font-size: 10px;
+    }
+
+    .container .content2 {
+        width: 39%;
+        height: 35vh;
+    }
+
+    .four {
+        width: 100%;
+        height: 91vh;
+        background: #000;
+        border-top: 3px solid gray;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .four .content .foot {
+        width: 30%;
+        height: 29vh;
+    }
+
+    .four .content #foot1 img {
+        width: 90%;
+        position: relative;
+        top: 38%;
+    }
+
+    .four a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .four .content .foot h1 {
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 18px;
+    }
+
+    .four .icon {
+        width: 100%;
+        position: relative;
+        top: 7%;
+    }
+
+    .four .copy {
+        border-top: 2px solid gray;
+        color: white;
+        width: 100%;
+        height: 44px;
+        position: relative;
+        top: 14%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .four .copy p {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:450px) {
+
+    .container img {
+        width: 64px;
+        height: 22px;
+        margin-left: 2%;
+        margin-top: 1%;
+        font-size: 0px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 14px;
+    }
+
+    .container .h {
+        color: white;
+        background: #000;
+        padding: 5px 15px;
+        text-align: center;
+        border-radius: 3px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-top: -1%;
+        font-size: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        top: 4%;
+        color: black;
+        font-size: 23px;
+    }
+
+    .container .content1 {
+        width: 39%;
+        height: 33vh;
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .content1 p {
+        font-size: 9px;
+    }
+
+    .container .content2 {
+        width: 39%;
+        height: 33vh;
+    }
+
+    .four {
+        width: 100%;
+        height: 81vh;
+        background: #000;
+        border-top: 3px solid gray;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .four .content {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .four .content .foot h1 {
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 17px;
+    }
+
+    .four a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 9px;
+    }
+
+    .four .icon {
+        width: 100%;
+        position: relative;
+        top: 2%;
+    }
+
+    .four .icon i {
+        color: white;
+        font-size: 15px;
+        position: relative;
+        left: 3%;
+        margin-right: 2%;
+    }
+
+    .four .copy {
+        border-top: 2px solid gray;
+        color: white;
+        width: 100%;
+        height: 44px;
+        position: relative;
+        top: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width:400px) {
+    .container {
+        width: 100%;
+        height: 80vh;
+        background: white;
+    }
+
+    .container img {
+        width: 64px;
+        height: 21px;
+        margin-left: 2%;
+        margin-top: 1%;
+        font-size: 0px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 14px;
+    }
+
+    .container .h {
+        color: white;
+        background: #000;
+        padding: 5px 15px;
+        text-align: center;
+        border-radius: 3px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-top: -1%;
+        font-size: 9px;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        top: 3%;
+        color: black;
+        font-size: 22px;
+    }
+
+    .container .img {
+        width: 100%;
+        height: 45vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .container .content1 {
+        width: 39%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .content1 p {
+        font-size: 8px;
+    }
+
+    .container .content2 {
+        width: 39%;
+        height: 30vh;
+    }
+
+    .four .content .foot h1 {
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 15px;
+    }
+
+    .four a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+    }
+
+    .four .content .foot {
+        width: 30%;
+        height: 26vh;
+    }
+
+    .four .icon i {
+        color: white;
+        font-size: 15px;
+        position: relative;
+        left: 36%;
+        margin-right: 2%;
+    }
+}
+
+@media(max-width:350px) {
+    .container {
+        width: 100%;
+        height: 75vh;
+        background: white;
+    }
+
+    .container .nav {
+        width: 100%;
+        height: 9vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(206, 203, 203);
+    }
+
+    .container img {
+        width: 64px;
+        height: 19px;
+        margin-left: 2%;
+        margin-top: 1%;
+        font-size: 0px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 12px;
+    }
+
+    .container .h {
+        color: white;
+        background: #000;
+        padding: 5px 15px;
+        text-align: center;
+        border-radius: 3px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-top: -1%;
+        font-size: 7px;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        top: 3%;
+        color: black;
+        font-size: 20px;
+    }
+
+    .container .img {
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .container .content1 {
+        width: 39%;
+        height: 25vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .content1 p {
+        font-size: 7px;
+    }
+
+    .container .content2 {
+        width: 39%;
+        height: 25vh;
+    }
+
+    .four {
+        width: 100%;
+        height: 73vh;
+        background: #000;
+        border-top: 3px solid gray;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .four .content {
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .four .content .foot h1 {
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 13px;
+    }
+
+    .four a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 7px;
+    }
+
+    .four .icon i {
+        color: white;
+        font-size: 14px;
+        position: relative;
+        left: 36%;
+        margin-right: 2%;
+    }
+
+    .four .copy {
+        border-top: 2px solid gray;
+        color: white;
+        width: 100%;
+        height: 44px;
+        position: relative;
+        top: 7%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .four .copy p {
+        font-size: 11px;
+    }
+
+}
+
+@media(max-width:300px) {
+    .container {
+        width: 100%;
+        height: 65vh;
+        background: white;
+    }
+
+    .container img {
+        width: 62px;
+        height: 17px;
+        margin-left: 2%;
+        margin-top: 1%;
+        font-size: 0px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 10px;
+    }
+
+    .container .h {
+        color: white;
+        background: #000;
+        padding: 5px 10px;
+        text-align: center;
+        border-radius: 3px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-top: -1%;
+        font-size: 5px;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        top: 3%;
+        color: black;
+        font-size: 18px;
+    }
+
+    .container .img {
+        width: 100%;
+        height: 37vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .container .content1 {
+        width: 39%;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .content1 p {
+        font-size: 5px;
+    }
+
+    .container .content2 {
+        width: 39%;
+        height: 20vh;
+    }
+
+    .four .content .foot h1 {
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 11px;
+    }
+
+    .four a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 6px;
+    }
+
+    .four .copy p {
+        font-size: 10px;
+    }
+}
