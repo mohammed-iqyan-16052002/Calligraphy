@@ -78,6 +78,10 @@ nav ul li a {
     color: white;
     font-size: 30px;
 }
+.container .main{
+    width: 100%;
+    height: 70vh;
+}
 
 .container .con1 {
     width: 100%;
@@ -1924,5 +1928,180 @@ nav ul li a {
 
     .four .copy p {
         font-size: 10px;
+    }
+}
+@media(max-width:250px){
+    .container {
+        width: 100%;
+        height: 105vh;
+        background: black;
+    }
+    .container .nav {
+        width: 100%;
+        height: 7vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(206, 203, 203);
+    }
+    .container img {
+        width: 56px;
+        height: 14px;
+        margin-left: 2%;
+        margin-top: 1%;
+        font-size: 0px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 8px;
+    }
+    .container .h {
+        color: white;
+        background: #000;
+        padding: 5px 10px;
+        text-align: center;
+        border-radius: 3px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-top: -1%;
+        font-size: 4px;
+    }
+    .container .main {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        /* background: aqua; */
+    }
+    .container .con1 {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: relative;
+        top: 37%;
+        gap: 7%;
+    }
+    .container .con1 .card1 img {
+        box-shadow: 0px 0px 5px 5px gray;
+        width: 155%;
+        height: 17vh;
+        background: white;
+    }
+    .container .con1 .card1 img {
+        box-shadow: 0px 0px 5px 5px gray;
+        width: 155%;
+        height: 17vh;
+        background: white;
+    }
+    .container .con1 .card2 img {
+        width: 146%;
+        height: 17vh;
+        background: white;
+        box-shadow: 0px 0px 5px 5px gray;
+    }
+    .container .con1 .card3 img {
+        margin-left: 14%;
+        width: 108%;
+        height: 17vh;
+        background: white;
+        box-shadow: 0px 0px 5px 5px gray;
+    }
+    .container .con1 .card4 img {
+        margin-left: 11%;
+        width: 117%;
+        height: 17vh;
+        background: white;
+        box-shadow: 0px 0px 5px 5px gray;
+    }
+    .container .con2 {
+        width: 100%;
+        height: 43vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        position: relative;
+        top: 42%;
+        right: 5%;
+        gap: 8%;
+    }
+    .container .con2 .card5 img {
+        width: 150%;
+        height: 17vh;
+        background: white;
+        box-shadow: 0px 0px 5px 5px gray;
+    }
+    .container .con2 .card6 img {
+        width: 140%;
+        height: 17vh;
+        background: white;
+        box-shadow: 0px 0px 5px 5px gray;
+    }
+    .container .con2 .card7 img {
+        width: 140%;
+        height: 17vh;
+        background: white;
+        box-shadow: 0px 0px 5px 5px gray;
+    }
+    .container .con2 .card8 img {
+        margin-left: 12%;
+        width: 110%;
+        height: 17vh;
+        background: white;
+        box-shadow: 0px 0px 5px 5px gray;
+    }
+
+    .four {
+        width: 100%;
+        height: 58vh;
+        background: #000;
+        border-top: 3px solid gray;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .four .content {
+        width: 100%;
+        height: 41vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+   .four .content .foot h1 {
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 9px;
+    }
+    .four a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 5px;
+    }
+    .four .icon {
+        width: 100%;
+        position: relative;
+        top: 6%;
+    }
+    .four .copy {
+        border-top: 2px solid gray;
+        color: white;
+        width: 100%;
+        height: 35px;
+        position: relative;
+        top: 11%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .four .copy p {
+        font-size: 9px;
     }
 }
